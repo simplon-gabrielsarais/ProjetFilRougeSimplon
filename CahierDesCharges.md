@@ -1,7 +1,7 @@
 # Cahier des charges - Déploiement de n8n, Rocket.Chat, Prometheus et Grafana sur AKS avec scaling horizontal
 
 ## Contexte
-L'objectif de ce projet est de déployer les applications n8n, Rocket.Chat, Prometheus et Grafana dans une infrastructure Kubernetes sur Azure Kubernetes Service (AKS) en utilisant le scaling horizontal. L'objectif final est de mettre en place un système de notification dans Rocket.Chat à l'aide de n8n. Prometheus et Grafana seront également installés pour offrir une supervision basique de l'infrastructure.
+L'objectif de ce projet est de déployer les applications n8n, Rocket.Chat, Prometheus et Grafana dans une infrastructure Kubernetes sur Azure Kubernetes Service (AKS) en utilisant le scaling horizontal. L'objectif final est de mettre en place un système de notification dans Rocket.Chat à l'aide de n8n. Prometheus et Grafana seront également installés pour offrir une supervision de l'infrastructure.
 
 ## Objectifs
 Les objectifs spécifiques de ce projet sont les suivants:
@@ -9,8 +9,8 @@ Les objectifs spécifiques de ce projet sont les suivants:
 2. Déployer n8n sur l'infrastructure Kubernetes pour automatiser les workflows et les notifications.
 3. Déployer Rocket.Chat sur l'infrastructure Kubernetes pour fournir une plateforme de communication.
 4. Configurer n8n pour envoyer des notifications vers Rocket.Chat.
-5. Installer Prometheus pour collecter les métriques de base.
-6. Configurer Grafana pour afficher des tableaux de bord avec les métriques de base.
+5. Installer Prometheus pour collecter les métriques.
+6. Configurer Grafana pour afficher des tableaux de bord avec les métriques.
 7. Mettre en place le scaling horizontal pour les services n8n, Rocket.Chat.
 
 ## Spécifications techniques
